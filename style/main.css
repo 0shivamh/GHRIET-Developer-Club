@@ -1,3 +1,10 @@
+/* html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+} */
+body{
+    text-align: center;
+}
 img.vert-move {
     -webkit-animation: mover 1s infinite  alternate;
     animation: mover 1s infinite  alternate;
@@ -21,7 +28,7 @@ img.vert-move {
     text-align: center;
 }
 .display-6{
-    margin: 100px 80px 120px 80px;
+    margin: 50px 80px 50px 80px;
 
 }
  #navBar{
@@ -87,7 +94,8 @@ img.vert-move {
     box-shadow: none!important;
 }
 .sec2{
-    margin: 50px 10px 50px 10px;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
 }
 .sliderc{
     
@@ -95,7 +103,9 @@ img.vert-move {
     border-radius: 50x;
     padding: 10px 10px 10px 10px;
 }
-
+.headtext{
+    color: #DE4839;
+}
 @media only screen and (max-width: 690px) {
     .display-6{
         margin: 0 20px 0 20px;
